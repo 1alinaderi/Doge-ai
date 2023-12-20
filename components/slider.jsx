@@ -30,8 +30,8 @@ const Slider = () => {
             }`}
           >
             <div className="slider_title py-4 pb-5 text-black">
-              StarkDoge AI is an Starknet-based ecosystem with a shiba
-              inu-theme.The project includes staking program, and a
+              Avax Doge Inu is an Avax-based ecosystem with a Shiba
+              Inu-theme.The project includes staking program,Airdrop,and a
               lottery-based giveaway.
             </div>
             <div className="d-flex flex-wrap gap-2 mb-4">
@@ -39,16 +39,8 @@ const Slider = () => {
                 className="p-3  px-4 text-center button_home "
                 href={"/whitepaper"}
               >
-                BUY ON AVNU
+                BUY 
               </Link>
-              <Link
-                className="p-3  px-4 text-center button_home "
-                href={"/whitepaper"}
-              >
-                BUY ON JEDISWAP
-              </Link>
-            </div>
-            <div className="mt-5 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
               <Link
                 className="p-3 px-4 text-center button_slider "
                 href={"/whitepaper"}
@@ -56,6 +48,7 @@ const Slider = () => {
                 Chart
               </Link>
             </div>
+          
           </div>
         </ScrollTrigger>
       </div>

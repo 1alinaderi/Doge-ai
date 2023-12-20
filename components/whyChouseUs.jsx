@@ -59,38 +59,59 @@ const WhyChouseUs = () => {
               <div
                 className={`box_container py-4 px-4 col-lg-6 col-12 pe-lg-5`}
               >
-                <h3 className="text-center text-lg-start display-5">STEP 1: BUY</h3>
-                <p className="pe-lg-5 text-center text-lg-start fs-5" style={{color:"yellow"}}>
-                  grab some $ DogeAI with 0 taxes and share this great news with
+                <h3 className="text-center text-lg-start display-5">
+                  STEP 1: BUY
+                </h3>
+                <p
+                  className="pe-lg-5 text-center text-lg-start fs-5"
+                  style={{ color: "yellow" }}
+                >
+                  grab some $DogeInu with 0 taxes and share this great news with
                   your friends.
                 </p>
               </div>
               <div
                 className={`box_container py-4 px-4 col-lg-6 col-12 pe-lg-5`}
               >
-                <h3 className="text-center text-lg-start display-5">STEP 2: HODL</h3>
-                <p className="pe-lg-5 text-center text-lg-start fs-5" style={{color:"yellow"}}>
-                  firmly hold $DogeAI and believe in DogeAI to the moon! $DogeAI
-                  brings you fun and wealth, DogeAI brings you everything!
+                <h3 className="text-center text-lg-start display-5">
+                  STEP 2: HODL
+                </h3>
+                <p
+                  className="pe-lg-5 text-center text-lg-start fs-5"
+                  style={{ color: "yellow" }}
+                >
+                  firmly hold $DogeInu and believe in DogeInu to the moon!
+                  $DogeInu brings you fun and wealth, DogeInu brings you
+                  everything!
                 </p>
               </div>
               <div
                 className={`box_container py-4 px-4 col-lg-6 col-12 pe-lg-5`}
               >
-                <h3 className="text-center text-lg-start display-5">STEP 3: MEME</h3>
-                <p className="pe-lg-5 text-center text-lg-start fs-5" style={{color:"yellow"}}>
+                <h3 className="text-center text-lg-start display-5">
+                  STEP 3: MEME
+                </h3>
+                <p
+                  className="pe-lg-5 text-center text-lg-start fs-5"
+                  style={{ color: "yellow" }}
+                >
                   enjoy your time with the community, let’s unite and earn
-                  through the farm, and every piece of joy and fun that $DogeAI
+                  through the farm, and every piece of joy and fun that $DogeInu
                   gives us.
                 </p>
               </div>
               <div
                 className={`box_container py-4 px-4 col-lg-6 col-12 pe-lg-5`}
               >
-                <h3 className="text-center text-lg-start display-5">STEP 4: REPEAT</h3>
-                <p className="pe-lg-5 text-center text-lg-start fs-5" style={{color:"yellow"}}>
-                  and DogeAI will company all the way! let’s never stop
-                  repeating fun and earning with DogeAI!
+                <h3 className="text-center text-lg-start display-5">
+                  STEP 4: REPEAT
+                </h3>
+                <p
+                  className="pe-lg-5 text-center text-lg-start fs-5"
+                  style={{ color: "yellow" }}
+                >
+                  and DogeInu will company all the way! let’s never stop
+                  repeating fun and earning with DogeInu!
                 </p>
               </div>
             </div>

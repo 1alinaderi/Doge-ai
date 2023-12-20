@@ -99,13 +99,13 @@ const Swap = (props) => {
     >
       <div id="lp" className="w-100 row justify-content-center py-5 m-0">
         <div className="p-2 d-flex p-4 pt-4 flex-wrap align-items-center justify-content-start col-lg-4 mb-3 col-md-8 col-sm-9 col-11 bg_link_input">
-          <h3 className="w-100 text-center">LP</h3>
+          <h3 className="w-100 text-center text-black">LP</h3>
 
           {BNBTOAIPEPE ? (
             <div className="form-group realative_top col-md-12 col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
-                <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/22691.png" />
-                <span className="ms-2">Stark</span>
+                <img src="https://cryptologos.cc/logos/avalanche-avax-logo.png?v=029" />
+                <span className="ms-2">AVAX</span>
               </span>
               <input
                 dir="rtl"
@@ -119,7 +119,7 @@ const Swap = (props) => {
             <div className="form-group realative_top col-md-12 col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
                 <img src="/logo.png" />
-                <span className="ms-2">DOGE AI</span>
+                <span className="ms-2">DOGE INU</span>
               </span>
 
               <input
@@ -146,7 +146,7 @@ const Swap = (props) => {
             <div className="form-group realative_bottom col-md-12 col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
                 <img src="/logo.png" />
-                <span className="ms-2">DOGE AI</span>
+                <span className="ms-2">DOGE INU</span>
               </span>
 
               <input
@@ -161,8 +161,8 @@ const Swap = (props) => {
           ) : (
             <div className="form-group col-md-12 realative_bottom col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
-                <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/22691.png" />
-                <span className="ms-2">Stark</span>
+                <img src="https://cryptologos.cc/logos/avalanche-avax-logo.png?v=029" />
+                <span className="ms-2">AVAX</span>
               </span>
               <input
                 dir="rtl"

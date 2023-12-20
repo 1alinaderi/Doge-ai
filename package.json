@@ -23,7 +23,11 @@
     "sass": "^1.37.5",
     "viem": "^0.3.24",
     "starknet": "^5.24.3",
-    "starknetkit": "^1.0.22"
+    "starknetkit": "^1.0.22",
+    "@web3modal/ethereum": "^2.4.1",
+    "@web3modal/react": "^2.4.1",
+    "wagmi": "^1.0.4",
+    "web3": "^1.10.0"
   },
   "browser": {
     "fs": false,

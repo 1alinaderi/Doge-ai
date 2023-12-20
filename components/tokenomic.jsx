@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaCircle, FaCube, FaSquare } from "react-icons/fa";
 import ScrollTrigger from "react-scroll-trigger";
 
 const Tokenomic = () => {
@@ -63,32 +64,46 @@ const Tokenomic = () => {
                   Total Supply <br />
                   <span>200,000,000,000,000,000</span>{" "}
                 </h2>
-                <span className="w-100 d-flex py-3">
+                <span className="w-100 d-flex py-2">
                   <span className="col-6 text-center ">
+                    <FaSquare size={16} />
+                    <br />
                     airdrop <br /> 35%
                   </span>
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     farm <br /> 18%
                   </span>
                 </span>
-                <span className="w-100 d-flex py-3">
+                <span className="w-100 d-flex py-2">
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     burn <br /> 15%
                   </span>
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     lp pool <br /> 11%
                   </span>
                 </span>
-                <span className="w-100 d-flex py-3">
+                <span className="w-100 d-flex py-2">
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     cex listing <br /> 9%
                   </span>
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     marketing <br /> 8%
                   </span>
                 </span>
-                <span className="w-100 d-flex py-3 justify-content-center">
+                <span className="w-100 d-flex py-2 justify-content-center">
                   <span className="col-6 text-center">
+                    <FaSquare size={16} />
+                    <br />
                     team <br /> 4%
                   </span>
                 </span>

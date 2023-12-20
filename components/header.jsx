@@ -6,50 +6,19 @@ import { connect, disconnect, StarknetWindowObject } from "starknetkit";
 import { ArgentMobileConnector } from "starknetkit/argentMobile";
 import { InjectedConnector } from "starknetkit/injected";
 import { WebWalletConnector } from "starknetkit/webwallet";
+import { useWeb3Modal, Web3Button } from "@web3modal/react";
 
 const Header = () => {
   const [show, setShow] = useState(false);
   const [starkAddress, setstarkAddress] = useState(false);
-  const connectWallet = async () => {
-    let starknetMobile = window?.starknet_argentX;
-    let isInAppBrowser = starknetMobile?.isInAppBrowser;
 
-    if (isInAppBrowser && window?.starknet_argentX) {
-      try {
-        const enabledValue = await sn.enable(window?.starknet_argentX);
-        callback(enabledValue ?? window?.starknet_argentX);
-      } catch {}
-      return;
-    }
-    const connection = await connect({
-      connectors: [
-        new InjectedConnector({ options: { id: "braavos", name: "Braavos" } }),
-        new InjectedConnector({ options: { id: "argentX", name: "Argent X" } }),
-        new ArgentMobileConnector(),
-      ],
-    });
-
-    if (connection) {
-      setstarkAddress(connection.selectedAddress);
-    }
-  };
   return (
     <div
       style={{ position: "relative" }}
       className="w-100 p-2 row align-items-center m-0 p-0 bg_light"
     >
       <div className="d-flex d-lg-none col-4 justify-content-start p-0 m-0 ">
-        <button
-          style={{
-            width: "120px",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
-          className="btn btn-primary"
-          onClick={connectWallet}
-        >
-          {starkAddress ? starkAddress : "Connect to Starknet"}{" "}
-        </button>
+        <Web3Button />
       </div>
       <div className="col-lg-3 col-6 p-0 m-0 d-flex justify-content-center align-items-center justify-content-lg-center">
         <Link href={"/"}>
@@ -57,7 +26,7 @@ const Header = () => {
             <img src="/logo.png" className="logo_fixed_size p-2" />
           </span>
           <span style={{ whiteSpace: "nowrap" }} className="logo_text">
-            Doge Ai
+            DOGE INU
           </span>
         </Link>
       </div>
@@ -129,17 +98,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="d-none d-lg-flex col-lg-3 justify-content-center p-0 m-0 ">
-        <button
-          style={{
-            width: "175px",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
-          className="btn btn-primary"
-          onClick={connectWallet}
-        >
-          {starkAddress ? starkAddress : "Connect to Starknet"}{" "}
-        </button>
+        <Web3Button />
       </div>
     </div>
   );

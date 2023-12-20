@@ -44,8 +44,10 @@ const Desc = () => {
     setAnimatedbox2(false);
   };
   return (
-    <div id="about" className="w-100 p-0 m-0 row justify-content-center py-5">
+    <div id="about" className="w-100 p-0 m-0 row justify-content-center py-5 px-4">
       <div className="col-lg-10 p-0 m-0 col-sm-11 col-12 px-2 px-md-4 d-flex flex-wrap  justify-content-center">
+        <div className="w-100 text-center slider_title pb-4">ROADMAP</div>
+
         <div className="col-lg-6 col-sm-10 col-12  p-md-5 text-white">
           <ScrollTrigger onEnter={onEnterBox} onExit={onExitBox}>
             <div
@@ -54,13 +56,19 @@ const Desc = () => {
               }`}
             >
               <div className="w-100 px-1 py-4">
-                <p className="text-center px-3 pb-3 pt-3">
-                  empowering Starknet users to earn more. DogeAI serves as a
-                  vital platform within the growing Starknet ecosystem, enabling
-                  users to stake their Stark assets and earn rewards, and thus
-                  enhancing the value of their holdings. It acts as a catalyst
-                  for value generation and empowers users to maximize their
-                  rewards while contributing to the ecosystem's prosperity.
+                <p className=" px-3 pb-3 pt-3">
+                  Q4/2023 <br />- Launch website <br />- Create smart contract{" "}
+                  <br />- Dex listing
+                  <br />- Coingecko / CMC listing
+                  <br />
+                  <br />
+                  Q1 /2024 <br />- Airdrop <br />- Cex listing <br />- Farm &
+                  earn <br />- phase 1 marketing ( twitter - youtube )<br /> -
+                  10,000+ holders
+                  <br />
+                  <br />
+                  Q2 /2024 <br />- DogeInu merch <br />- phase 2 marketing (
+                  tiktok - instagram )
                 </p>
               </div>
             </div>
@@ -75,17 +83,16 @@ const Desc = () => {
             >
               <div className="w-100 px-1 py-4">
                 <p className="text-center px-3 pb-3 pt-3">
-                  DogeAI combines the viral and playful nature of memecoin with
+                  DogeInu combines the viral and playful nature of memecoin with
                   a genuine purpose. It‘s not just about fun; it’s about
-                  creating value for Starknet. DogeAI offers rewards and
-                  incentives to token holders. by holding DogeAI, users can
-                  participate in the growth of the Starknet ecosystem and
-                  capture value within it. DogeAI is exploring innovative use
-                  cases within the Starknet ecosystem to further expand its
-                  utility and value. as it continues to evolve and grow, it's
-                  poised to offer more value to its holders and play a
-                  significant role in the development of starknet's thriving
-                  community
+                  creating value for Avax. DogeInu offers rewards and incentives
+                  to token holders. by holding DogeInu, users can participate in
+                  the growth of the Avax ecosystem and capture value within it.
+                  DogeInu is exploring innovative use cases within the Avax
+                  ecosystem to further expand its utility and value. as it
+                  continues to evolve and grow, it's poised to offer more value
+                  to its holders and play a significant role in the development
+                  of Avax's thriving community
                 </p>
               </div>
             </div>

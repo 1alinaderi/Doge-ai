@@ -31,7 +31,7 @@
   --input-color: #99a3ba;
   --input-border: #cdd9ed;
   --input-background: #fff;
-  --input-placeholder: #fff;
+  --input-placeholder: #000;
 
   --input-border-focus: #275efe;
 
@@ -46,6 +46,7 @@
 body {
   color: #fff !important;
   font-family: "Fudge" !important;
+  background-color: #e84142 !important;
 }
 p {
   margin-bottom: 0 !important;
@@ -213,7 +214,7 @@ a {
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.47);
   z-index: 2;
   border-radius: 15px;
-  background-color: #d16609;
+  background-color: #fff;
 }
 
 .form-field {
@@ -225,8 +226,8 @@ a {
   font-weight: 500;
   height: 50px;
   border-radius: 6px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000;
+  border: 1px solid #000;
   transition: border 0.3s ease;
   &::placeholder {
     color: var(--input-placeholder);
@@ -236,21 +237,21 @@ a {
     border-color: var(--input-border-focus);
   }
 }
-.swap_icon{
+.swap_icon {
   background-color: #22242e;
   border-radius: 50%;
   padding: 10px;
 }
-.realative_bottom{
+.realative_bottom {
   position: relative;
   bottom: 10px;
-  border-bottom: 1px dashed #fff;
+  border-bottom: 1px dashed #000;
   padding-bottom: 30px;
 }
-.realative_top{
+.realative_top {
   position: relative;
   top: 10px;
-  border-top: 1px dashed #fff;
+  border-top: 1px dashed #000;
   padding-top: 30px;
 }
 .icon_Token {
@@ -292,16 +293,16 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     background-color: transparent;
-    color: #fff;
+    color: #000;
   }
   & > span {
     text-align: center;
     padding: 5px 8px;
     font-size: 14px;
     line-height: 25px;
-    color: #fff;
+    color: #000;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
   }
   &:focus-within {
@@ -322,7 +323,6 @@ a {
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 600;
-  width: 200px;
   &:hover {
     opacity: 0.9;
   }
@@ -353,8 +353,7 @@ a {
   div {
     border-radius: 15px;
     background-color: #412cb4;
-  box-shadow: 0px 10px 20px 0px #412cb4;
-
+    box-shadow: 0px 10px 20px 0px #412cb4;
   }
   span {
     @include mobile {
