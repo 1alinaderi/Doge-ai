@@ -30,14 +30,32 @@ const Slider = () => {
             }`}
           >
             <div className="slider_title py-4 pb-5 text-black">
-              A Decentralized Meme Token Evolved into a Vibrant Ecosystem
+              StarkDoge AI is an Starknet-based ecosystem with a shiba
+              inu-theme.The project includes staking program, and a
+              lottery-based giveaway.
             </div>
-            <Link
-              className="p-3  px-4  button_home ms-2 ms-sm-0"
-              href={"/whitepaper"}
-            >
-              WHITEPAPER
-            </Link>
+            <div className="d-flex flex-wrap gap-2 mb-4">
+              <Link
+                className="p-3  px-4 text-center button_home "
+                href={"/whitepaper"}
+              >
+                BUY ON AVNU
+              </Link>
+              <Link
+                className="p-3  px-4 text-center button_home "
+                href={"/whitepaper"}
+              >
+                BUY ON JEDISWAP
+              </Link>
+            </div>
+            <div className="mt-5 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
+              <Link
+                className="p-3 px-4 text-center button_slider "
+                href={"/whitepaper"}
+              >
+                Chart
+              </Link>
+            </div>
           </div>
         </ScrollTrigger>
       </div>

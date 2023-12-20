@@ -22,11 +22,16 @@
   }
 }
 
+@font-face {
+  font-family: "Fudge";
+  src: url("../../public/fonts/Fudge.Sauce/FudgeSauce-Caps.ttf");
+}
+
 :root {
   --input-color: #99a3ba;
   --input-border: #cdd9ed;
   --input-background: #fff;
-  --input-placeholder: #cbd1dc;
+  --input-placeholder: #fff;
 
   --input-border-focus: #275efe;
 
@@ -40,6 +45,7 @@
 }
 body {
   color: #fff !important;
+  font-family: "Fudge" !important;
 }
 p {
   margin-bottom: 0 !important;
@@ -69,17 +75,17 @@ a {
   transform: translateY(0);
   opacity: 1;
 }
-  .animate {
-    transform: translateX(-50%);
-    position: relative;
-    left: 60%;
-    @include tablet {
-      left: 53%;
-    }
-    @include mobile {
-      left: 53%;
-    }
+.animate {
+  transform: translateX(-50%);
+  position: relative;
+  left: 60%;
+  @include tablet {
+    left: 53%;
   }
+  @include mobile {
+    left: 53%;
+  }
+}
 .animate_center {
   transform: translateX(-50%) !important;
   position: relative !important;
@@ -89,8 +95,8 @@ a {
   font-size: 25px;
   color: #000 !important;
   @include mobile {
-  color: #000 !important;
-  font-size: 23px;
+    color: #000 !important;
+    font-size: 23px;
   }
   font-weight: 800;
 }
@@ -114,7 +120,7 @@ a {
 }
 .slider_title {
   transition: all 1.5s;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 800;
   @include tablet {
     font-size: 35px;
@@ -126,18 +132,12 @@ a {
 .button_slider {
   background-color: rgb(89, 0, 255);
   border-radius: 100px;
-  font-size: 40px;
+  font-size: 20px;
   transition: all 0.4s;
   color: rgb(255, 255, 255) !important;
   &:hover {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(86, 46, 162);
-  }
-  @include tablet {
-    font-size: 30px;
-  }
-  @include mobile {
-    font-size: 20px;
   }
 }
 .slider_image {
@@ -176,16 +176,16 @@ a {
   }
 }
 .box_container {
-  background: #412CB4;
+  background: #412cb4;
 }
 .box_container_parrent {
-  background: #412CB4;
+  background: #412cb4;
   transition: all 1.5s;
   border-radius: 25px;
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.47);
 }
 .box_container_parrent2 {
-  background: #412CB4;
+  background: #412cb4;
   transition: all 1.5s;
   border-radius: 25px;
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.47);
@@ -199,7 +199,7 @@ a {
   transition: all 1.5s;
 }
 .box_container2 {
-  background: #412CB4;
+  background: #412cb4;
 }
 .box_title {
   font-size: 27px;
@@ -213,6 +213,7 @@ a {
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.47);
   z-index: 2;
   border-radius: 15px;
+  background-color: #d16609;
 }
 
 .form-field {
@@ -222,12 +223,10 @@ a {
   line-height: 25px;
   font-size: 14px;
   font-weight: 500;
-  font-family: inherit;
+  height: 50px;
   border-radius: 6px;
-  -webkit-appearance: none;
-  color: var(--input-color);
-  border: 1px solid var(--input-border);
-  background: var(--input-background);
+  color: #fff;
+  border: 1px solid #fff;
   transition: border 0.3s ease;
   &::placeholder {
     color: var(--input-placeholder);
@@ -236,6 +235,29 @@ a {
     outline: none;
     border-color: var(--input-border-focus);
   }
+}
+.swap_icon{
+  background-color: #22242e;
+  border-radius: 50%;
+  padding: 10px;
+}
+.realative_bottom{
+  position: relative;
+  bottom: 10px;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 30px;
+}
+.realative_top{
+  position: relative;
+  top: 10px;
+  border-top: 1px dashed #fff;
+  padding-top: 30px;
+}
+.icon_Token {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon_Token img {
   width: 32px;
@@ -269,15 +291,17 @@ a {
     width: 1%;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: transparent;
+    color: #fff;
   }
   & > span {
     text-align: center;
     padding: 5px 8px;
     font-size: 14px;
     line-height: 25px;
-    color: var(--group-color);
-    background: var(--group-background);
-    border: 1px solid var(--group-border);
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
     transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
   }
   &:focus-within {
@@ -289,19 +313,19 @@ a {
   }
 }
 .button_home {
-  background: #0b2dda; 
+  background: #167019;
   border-radius: 50px;
   color: #fff;
-  border: 1px solid #0b2dda;
+  border: 1px solid #167019;
   transition: 0.3s;
   text-decoration: none !important;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 600;
+  width: 200px;
   &:hover {
-    opacity: .9;
+    opacity: 0.9;
   }
-  
 }
 .bg_linder_red {
   background: linear-gradient(
@@ -312,23 +336,25 @@ a {
   );
 }
 .bg_light {
-  background: #efcd9b ;
+  background: #e8e173;
 }
 .text-black {
   color: #000 !important;
 }
 .bg_dark {
-  background: #412CB4;
+  background: #412cb4;
 }
 
 .box_container_token {
   transition: all 1.5s;
-  background-color: #fff;
-  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.47);
   div {
-    border-radius: 50%;
-    background-color: #412CB4;
+    border-radius: 15px;
+    background-color: #412cb4;
+  box-shadow: 0px 10px 20px 0px #412cb4;
+
   }
   span {
     @include mobile {
@@ -339,7 +365,7 @@ a {
 }
 
 .icon_bg {
-  background-color: #412CB4;
+  background-color: #412cb4;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -349,7 +375,6 @@ a {
 }
 .bg_22 {
   background-color: #22242e;
-
 }
 #myVideo {
   position: absolute;
@@ -360,7 +385,4 @@ a {
 #swap {
   position: relative;
   z-index: 5;
-}
-.cream_bg{
-
 }

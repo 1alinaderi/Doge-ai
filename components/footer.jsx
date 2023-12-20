@@ -17,17 +17,12 @@ const Footer = () => {
           HajiInu swap
         </span>
         <span className="fs-5 fw-bold w-100 pt-3 text-danger">
-          Join our social media
+          Join to our community
         </span>
         <span className="d-flex pt-4">
           <Link href={"https://twitter.com/HAJI_inu"}>
             <span className="mx-1 icon_bg">
               <FaTwitter />
-            </span>
-          </Link>
-          <Link href={"https://github.com/HajiInu"}>
-            <span className="mx-1 icon_bg">
-              <FaGithub />
             </span>
           </Link>
           <Link href={"https://t.me/HajiInu_chat"}>
@@ -43,11 +38,7 @@ const Footer = () => {
         </span>
       </div>
       <div className="w-100 p-0 m-0 text-center pt-3">
-        <a
-          href="mailto:info@hajiinu.com"
-        >
-          info@hajiinu.com
-        </a>
+        <a href="mailto:info@hajiinu.com">info@hajiinu.com</a>
       </div>
     </div>
   );
