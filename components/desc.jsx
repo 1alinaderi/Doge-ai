@@ -70,7 +70,7 @@ const Desc = () => {
                   10,000+ holders
                   <br />
                   <br />
-                  Q2 /2024 <br />- DogIinu merch <br />- phase 2 marketing (
+                  Q2 /2024 <br />- DogInu merch <br />- phase 2 marketing (
                   tiktok - instagram )
                 </p>
               </div>
@@ -86,12 +86,12 @@ const Desc = () => {
             >
               <div className="w-100 px-1 py-4">
                 <p className="text-center px-3 pb-3 pt-3">
-                  DogIinu combines the viral and playful nature of memecoin with
+                  DogInu combines the viral and playful nature of memecoin with
                   a genuine purpose. It‘s not just about fun; it’s about
-                  creating value for Avax. DogIinu offers rewards and incentives
-                  to token holders. by holding DogIinu, users can participate in
+                  creating value for Avax. DogInu offers rewards and incentives
+                  to token holders. by holding DogInu, users can participate in
                   the growth of the Avax ecosystem and capture value within it.
-                  DogIinu is exploring innovative use cases within the Avax
+                  DogInu is exploring innovative use cases within the Avax
                   ecosystem to further expand its utility and value. as it
                   continues to evolve and grow, it's poised to offer more value
                   to its holders and play a significant role in the development

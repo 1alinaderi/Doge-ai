@@ -72,8 +72,8 @@ export default function Home(props) {
                       fontSize: "20px",
                     }}
                   >
-                    35% of DogIinu supply will be airdropped. You can claim
-                    DogIinu tokens 25/1/2024
+                    35% of DogInu supply will be airdropped. You can claim
+                    DogInu tokens 25/1/2024
                   </p>
                   <br />
                   <p
@@ -83,8 +83,8 @@ export default function Home(props) {
                       fontSize: "20px",
                     }}
                   >
-                    DogIinu tokens that have not been claimed within 30 days
-                    will be used for the Community Long-Term Incentive Reward
+                    DogInu tokens that have not been claimed within 30 days will
+                    be used for the Community Long-Term Incentive Reward
                     Program.
                   </p>
 
