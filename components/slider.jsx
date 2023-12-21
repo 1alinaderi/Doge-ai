@@ -30,16 +30,16 @@ const Slider = () => {
             }`}
           >
             <div className="slider_title py-4 pb-5 text-black">
-              Avax Doge Inu is an Avax-based ecosystem with a Shiba
-              Inu-theme.The project includes staking program,Airdrop,and a
-              lottery-based giveaway.
+              Avax DOGINU is an Avax-based ecosystem with a Shiba Inu-theme.The
+              project includes staking program,Airdrop,and a lottery-based
+              giveaway.
             </div>
             <div className="d-flex flex-wrap gap-2 mb-4">
               <Link
                 className="p-3  px-4 text-center button_home "
                 href={"/whitepaper"}
               >
-                BUY 
+                BUY
               </Link>
               <Link
                 className="p-3 px-4 text-center button_slider "
@@ -48,7 +48,6 @@ const Slider = () => {
                 Chart
               </Link>
             </div>
-          
           </div>
         </ScrollTrigger>
       </div>

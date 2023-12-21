@@ -26,7 +26,7 @@ const Header = () => {
             <img src="/logo.png" className="logo_fixed_size p-2" />
           </span>
           <span style={{ whiteSpace: "nowrap" }} className="logo_text">
-            DOGE INU
+            DOGINU
           </span>
         </Link>
       </div>

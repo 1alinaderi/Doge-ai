@@ -119,7 +119,7 @@ const Swap = (props) => {
             <div className="form-group realative_top col-md-12 col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
                 <img src="/logo.png" />
-                <span className="ms-2">DOGE INU</span>
+                <span className="ms-2">DOGINU</span>
               </span>
 
               <input
@@ -146,7 +146,7 @@ const Swap = (props) => {
             <div className="form-group realative_bottom col-md-12 col-12 d-flex  justify-content-start align-items-center">
               <span className="icon_Token">
                 <img src="/logo.png" />
-                <span className="ms-2">DOGE INU</span>
+                <span className="ms-2">DOGINU</span>
               </span>
 
               <input

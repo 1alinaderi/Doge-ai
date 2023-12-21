@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="text-center col-12 col-sm-11 col-lg-6 p-0 m-0  d-flex flex-wrap justify-content-center px-4">
         <span className="fs-4 fw-bold w-100 px-2 px-sm-4 px-lg-0">
           Our community grows stronger every day. to get latest updates on
-          DogeInu Join to our community
+          DogIinu Join to our community
         </span>
         <span className="fs-5 fw-bold w-100 pt-3 text-danger">
           Join to our community

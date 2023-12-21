@@ -66,7 +66,7 @@ const WhyChouseUs = () => {
                   className="pe-lg-5 text-center text-lg-start fs-5"
                   style={{ color: "yellow" }}
                 >
-                  grab some $DogeInu with 0 taxes and share this great news with
+                  grab some $DogIinu with 0 taxes and share this great news with
                   your friends.
                 </p>
               </div>
@@ -80,8 +80,8 @@ const WhyChouseUs = () => {
                   className="pe-lg-5 text-center text-lg-start fs-5"
                   style={{ color: "yellow" }}
                 >
-                  firmly hold $DogeInu and believe in DogeInu to the moon!
-                  $DogeInu brings you fun and wealth, DogeInu brings you
+                  firmly hold $DogIinu and believe in DogIinu to the moon!
+                  $DogIinu brings you fun and wealth, DogIinu brings you
                   everything!
                 </p>
               </div>
@@ -96,7 +96,7 @@ const WhyChouseUs = () => {
                   style={{ color: "yellow" }}
                 >
                   enjoy your time with the community, let’s unite and earn
-                  through the farm, and every piece of joy and fun that $DogeInu
+                  through the farm, and every piece of joy and fun that $DogIinu
                   gives us.
                 </p>
               </div>
@@ -110,8 +110,8 @@ const WhyChouseUs = () => {
                   className="pe-lg-5 text-center text-lg-start fs-5"
                   style={{ color: "yellow" }}
                 >
-                  and DogeInu will company all the way! let’s never stop
-                  repeating fun and earning with DogeInu!
+                  and DogIinu will company all the way! let’s never stop
+                  repeating fun and earning with DogIinu!
                 </p>
               </div>
             </div>
