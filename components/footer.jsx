@@ -20,17 +20,17 @@ const Footer = () => {
           Join to our community
         </span>
         <span className="d-flex pt-4">
-          <Link href={"https://twitter.com/HAJI_inu"}>
+          <Link href={"https://t.me/AvaxDogInu"}>
             <span className="mx-1 icon_bg">
               <FaTwitter />
             </span>
           </Link>
-          <Link href={"https://t.me/HajiInu_chat"}>
+          <Link href={"https://x.com/DogInutoken?t=upU7SmD2IoNH13c1sP2A8g&s=09"}>
             <span className="mx-1 icon_bg">
               <FaTelegram />
             </span>
           </Link>
-          <Link href={"mailto:info@hajiinu.com"}>
+          <Link href={"mailto:info@avaxdoginu.com"}>
             <span className="mx-1 icon_bg">
               <FaEnvelope />
             </span>
@@ -38,7 +38,7 @@ const Footer = () => {
         </span>
       </div>
       <div className="w-100 p-0 m-0 text-center pt-3">
-        <a href="mailto:info@hajiinu.com">info@hajiinu.com</a>
+        <a href="mailto:info@avaxdoginu.com">info@avaxdoginu.com</a>
       </div>
     </div>
   );
